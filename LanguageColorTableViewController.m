@@ -195,7 +195,7 @@ added:
     for (NSArray* nameAndColor in colors_) {
       NSString* name = [nameAndColor objectAtIndex:0];
       if ([name isEqual:value]) {
-        return [NSString stringWithFormat:@"%d", i];
+        return [NSString stringWithFormat:@"%ld", (long)i];
       }
       ++i;
     }
