@@ -104,13 +104,14 @@ static NSString* indicatorShapes_[] = { @"thin", @"full", nil };
 
 + (CGFloat) indicatorHeight
 {
-  CGFloat height = [[NSApp mainMenu] menuBarHeight];
-
+  NSRect rect = [[NSScreen mainScreen] frame];
+  CGFloat height = rect.size.height;
+  
   NSString* shape = [PreferencesController indicatorShape];
   if ([shape isEqualToString:@"thin"]) {
-    height /= 4;
+    ;
   } else if ([shape isEqualToString:@"full"]) {
-    height -= 1;
+    ;
   }
 
   return height;
