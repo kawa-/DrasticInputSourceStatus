@@ -19,7 +19,7 @@
 
   [color0_ set];
   NSRectFill(NSMakeRect(width * 0, 0, width * 1 + 0.3f, fullrect.size.height));
-  //add 0.3f because there exits 1px blank between color0 and color1 under my environment of MBP 13inch Middle 2009.
+  //add 0.3f because there exits 1px blank between color0 and color1 under my environment of MBP 13inch Middle 2009.加えて、なぜか0.2fだとブランクが残るので、0.3fにした。なんだろう丸め誤差？でもdoubleだしなぁ…？
 
   [color1_ set];
   NSRectFill(NSMakeRect(width * 1, 0, width * 2, fullrect.size.height));
