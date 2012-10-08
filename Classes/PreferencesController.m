@@ -107,6 +107,7 @@ static NSString* indicatorShapes_[] = { @"thin", @"full", nil };
   NSRect rect = [[NSScreen mainScreen] frame];
   CGFloat height = rect.size.height;
   
+  //ToDo: thin, full, wholeみたいなuiを加えたい。
   NSString* shape = [PreferencesController indicatorShape];
   if ([shape isEqualToString:@"thin"]) {
     ;
