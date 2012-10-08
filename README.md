@@ -1,7 +1,6 @@
 # DrasticInputSourceStatus ka-w-a改造版
 
-アプリケーションのダウンロード
-
+アプリケーションのダウンロード:
 - [MacOS10.6はここ！](http://mitsuakikawamorita.com/software/DrasticInputSourceStatus/DrasticInputSourceStatus-3.1.2-MacOS10.6.dmg "app")
 - [MacOS10.8はここ！(10.7もたぶんここ)](http://mitsuakikawamorita.com/software/DrasticInputSourceStatus/DrasticInputSourceStatus-3.1.2-MacOS10.8.dmg "app")
 
