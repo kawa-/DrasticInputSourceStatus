@@ -1,8 +1,8 @@
 # DrasticInputSourceStatus kawa-改造版
 
 アプリケーションのダウンロード:
-- [MacOS10.6はここ！](http://mitsuakikawamorita.com/software/DrasticInputSourceStatus/DrasticInputSourceStatus-3.1.2-MacOS10.6.dmg "app")
-- [MacOS10.8はここ！(10.7もたぶんここ)](http://mitsuakikawamorita.com/software/DrasticInputSourceStatus/DrasticInputSourceStatus-3.1.2-MacOS10.8.dmg "app")
+- [MacOS10.6はここ！](http://mitsuakikawamorita.com/software/DrasticInputSourceStatus-mod/DrasticInputSourceStatus-3.1.2-MacOS10.6.dmg "app")
+- [MacOS10.8はここ！(10.7もたぶんここ)](http://mitsuakikawamorita.com/software/DrasticInputSourceStatus-mod/DrasticInputSourceStatus-3.1.2-MacOS10.8.dmg "app")
 
 takezo氏制作の、IMEの状態によりメニューバーの色が変わるツール、DrasticInputSourcesStatusを少しいじって、画面全体で色が変化するようにしてみました。
 私kawa-は元ソースを9行ぐらいしかいじっていませんので、takezo氏に圧倒的感謝！
