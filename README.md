@@ -22,7 +22,7 @@ Mac OS X 10.6 or higer.
 Execute a following command in Terminal.app.
 
 <pre>
-git clone --depth 10 https://github.com/ka-w-a/DrasticInputSourceStatus.git
+git clone --depth 10 https://github.com/kawa-/DrasticInputSourceStatus.git
 </pre>
 
 ### Step2: Building a package

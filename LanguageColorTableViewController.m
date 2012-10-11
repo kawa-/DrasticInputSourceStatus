@@ -11,18 +11,21 @@
 
     colors_ = [NSArray arrayWithObjects:
                // We use grayColor as "black" because blackColor is too dark.
-               [NSArray arrayWithObjects:@"black",   [NSColor grayColor],    nil],
-               [NSArray arrayWithObjects:@"blue",    [NSColor blueColor],    nil],
-               [NSArray arrayWithObjects:@"brown",   [NSColor brownColor],   nil],
-               [NSArray arrayWithObjects:@"clear",   [NSColor clearColor],   nil],
-               [NSArray arrayWithObjects:@"cyan",    [NSColor cyanColor],    nil],
-               [NSArray arrayWithObjects:@"green",   [NSColor greenColor],   nil],
-               [NSArray arrayWithObjects:@"magenta", [NSColor magentaColor], nil],
-               [NSArray arrayWithObjects:@"orange",  [NSColor orangeColor],  nil],
-               [NSArray arrayWithObjects:@"purple",  [NSColor purpleColor],  nil],
-               [NSArray arrayWithObjects:@"red",     [NSColor redColor],     nil],
-               [NSArray arrayWithObjects:@"white",   [NSColor whiteColor],   nil],
-               [NSArray arrayWithObjects:@"yellow",  [NSColor yellowColor],  nil],
+               //[NSArray arrayWithObjects:@"black",   [NSColor grayColor],    nil],
+               //[NSArray arrayWithObjects:@"blue",    [NSColor blueColor],    nil],
+               //[NSArray arrayWithObjects:@"brown",   [NSColor brownColor],   nil],
+			   [NSArray arrayWithObjects:@"black",   [NSColor lightGrayColor],   nil],
+			   [NSArray arrayWithObjects:@"blue",   [NSColor lightGrayColor],   nil],
+			   [NSArray arrayWithObjects:@"brown",   [NSColor lightGrayColor],   nil],
+               //[NSArray arrayWithObjects:@"clear",   [NSColor clearColor],   nil],
+               //[NSArray arrayWithObjects:@"cyan",    [NSColor cyanColor],    nil],
+               //[NSArray arrayWithObjects:@"green",   [NSColor greenColor],   nil],
+               //[NSArray arrayWithObjects:@"magenta", [NSColor magentaColor], nil],
+               //[NSArray arrayWithObjects:@"orange",  [NSColor orangeColor],  nil],
+               //[NSArray arrayWithObjects:@"purple",  [NSColor purpleColor],  nil],
+               //[NSArray arrayWithObjects:@"red",     [NSColor redColor],     nil],
+               //[NSArray arrayWithObjects:@"white",   [NSColor whiteColor],   nil],
+               //[NSArray arrayWithObjects:@"yellow",  [NSColor yellowColor],  nil],
                nil];
     [colors_ retain];
   }
